@@ -1,0 +1,60 @@
+   footer{
+    padding: 25px;
+        background-color: $footer-bg;
+        .container{
+        display: flex;
+        justify-content:space-around;
+        span{
+color: white;
+padding: 2px;
+        }
+        h2{
+            color: white;
+            font-size:20px
+        }
+
+}
+strong{
+    font-size: 30px;
+}
+strong:hover{
+    color: white;
+}
+.copy{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+border-top:1px solid#53585e;
+p{color: #53585e;}
+}
+.Social{
+    display: flex;
+    flex-direction: column;
+    .icons{
+        display: flex;
+      justify-content: space-around;
+    }
+    i{
+        display: flex;
+       
+        justify-content: center;
+         width: 31px;
+         padding: 7px;
+        background-color: white;
+        color:black;
+    }
+    .fa-facebook-f:hover{
+        
+        background-color: $btn-hover-color;
+        color: white;
+    }
+    .fa-x-twitter:hover{
+        background-color: $btn-nav-color;
+        color:white;
+    }
+    .fa-linkedin-in:hover{
+        background-color: #345cb1;
+        color:white;
+    }
+}
+    }

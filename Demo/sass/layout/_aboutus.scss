@@ -1,0 +1,26 @@
+ .about-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        display: flex;
+    }
+
+   .right {
+    img{
+       @include box-shadow(); 
+    }
+  
+}
+.left{
+    padding-right: 100px;
+        padding-right: 100px;
+    display: flex
+;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+}

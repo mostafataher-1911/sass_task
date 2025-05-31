@@ -1,0 +1,17 @@
+.Insurance{
+    padding: 25px;
+ 
+  
+    .imgs{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    img{
+        border: 1px $gray-background solid;
+        padding: 30px;
+       height: 150px;
+    }
+}

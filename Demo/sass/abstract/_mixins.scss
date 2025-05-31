@@ -1,0 +1,28 @@
+@mixin hover-effect($bgcolor, $color: $light-color) {
+    color: $color;
+    background-color: $bgcolor;
+}
+
+@mixin button-hover-active(){
+     background-color:$btn-hover-color;
+     color: white;
+}
+@mixin   box-shadow{
+      box-shadow: 0 4px 55px rgba(0, 0, 0, 0.3);
+}
+@mixin header1($b){
+   
+    height: 24px;
+    display: flex
+;
+    align-items: center;
+    justify-content: space-around;
+    border-right: $b solid #e3e3e3;;
+    padding: 15px;
+    i{
+        padding: 5px;
+        color: $btn-nav-color;
+
+    }
+    p{color: $p-color;}
+}

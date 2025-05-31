@@ -1,0 +1,53 @@
+
+nav{
+    padding-top: 20px;
+  
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  img{
+    width: 130px;
+    margin-right: 60px;
+    }
+    
+ ul{
+    list-style: none;
+    display: flex;
+    
+ }
+ li{
+    padding-left: 1px;
+    padding-right: 1px;
+    
+   
+    button{
+    color: $btn-nav-color;
+    background-color:transparent;
+    border: none;
+     text-transform:uppercase;
+     padding: 6px 14px;
+       font-weight: bolder;
+    
+ }
+ button:hover{
+   @include button-hover-active();
+ }
+ button.active {
+ @include button-hover-active();
+
+
+ 
+}
+ }
+ 
+ 
+}

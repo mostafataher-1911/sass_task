@@ -1,0 +1,51 @@
+.resources{
+    padding: 25px;
+     .bt{
+        padding-top: 25px;
+            display: flex;
+            
+            justify-content: center;
+        }
+
+    background-color:$gray-background;
+    .cards{
+        display: flex;
+     
+ 
+    }
+    .card{
+        width: 75%;
+        margin: 10px;
+        background-color: white;
+        padding-bottom: 50px;
+        a {
+  text-decoration: none;  
+  color: inherit;         
+      }
+      .card-text{
+        padding: 10px;
+      }
+        img{
+            width: 100%;
+        }
+        h3{
+            font-weight: bolder; 
+       padding-bottom: 5px;
+         
+          
+        }
+        h3:hover{
+            color: $btn-nav-color;
+        }
+        p{
+            font-size:smaller;
+           padding-bottom: 5px;
+            
+        }
+    }
+    .card:hover{
+        @include box-shadow()
+    }
+
+    
+}
